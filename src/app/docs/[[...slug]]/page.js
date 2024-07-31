@@ -1,4 +1,4 @@
-export const DocPage = ({ params }) => {
+const DocPage = ({ params }) => {
   if (params.slug?.length === 2) {
     return (
       <h1>
